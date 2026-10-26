@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover how InAmigos Foundation supports communities through donations, volunteering, and social campaigns.">
+    <title>InAmigos Foundation | NGO Website Features</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">💙</span>
+            <span>InAmigos <small>FOUNDATION</small></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#campaigns">Campaigns</a>
+            <a href="#impact">Our Impact</a>
+            <a href="#volunteer">Volunteer</a>
+        </nav>
+
+        <a href="#donate" class="btn btn-primary nav-donate">
+            ♥ Donate Now
+        </a>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">TOGETHER FOR A BETTER TOMORROW</span>
+
+                <h1>Small Help.<br>
+                    <span>Big Change.</span>
+                </h1>
+
+                <p>
+                    Every small act of kindness can create a big difference.
+                    Join InAmigos Foundation to support education, healthcare,
+                    and communities in need.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#donate" class="btn btn-primary">♥ Donate Now</a>
+                    <a href="#features" class="btn btn-outline">Explore Features</a>
+                </div>
+
+                <div class="hero-note">
+                    🤝 Together, we can make a difference.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-illustration">
+                    <span>🌍</span>
+                    <span>💚</span>
+                    <span>🤝</span>
+                </div>
+
+                <div class="floating-card">
+                    <span class="floating-icon">❤️</span>
+                    <div>
+                        <strong>Spread Kindness</strong>
+                        <p>Make every action count.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Highlights -->
+        <section class="section features-section" id="features">
+            <div class="section-heading">
+                <span class="eyebrow">WEBSITE IMPROVEMENT IDEAS</span>
+                <h2>Key Features for an <span>NGO Website</span></h2>
+                <p>
+                    Five important features that can make our foundation's
+                    website more useful, transparent, and engaging.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card donation-card">
+                    <div class="feature-icon">💝</div>
+                    <span class="feature-number">FEATURE 01</span>
+                    <h3>Donation Section</h3>
+                    <p>
+                        Make it easy for visitors to support social causes
+                        with clear donation options and secure payments.
+                    </p>
+                    <a href="#donate" class="text-link">Explore Donations →</a>
+                </article>
+
+                <article class="feature-card volunteer-card">
+                    <div class="feature-icon">🙋</div>
+                    <span class="feature-number">FEATURE 02</span>
+                    <h3>Volunteer Registration</h3>
+                    <p>
+                        Allow people to register, share their skills,
+                        and contribute their time to meaningful work.
+                    </p>
+                    <a href="#volunteer" class="text-link">Join as Volunteer →</a>
+                </article>
+
+                <article class="feature-card campaign-card">
+                    <div class="feature-icon">📢</div>
+                    <span class="feature-number">FEATURE 03</span>
+                    <h3>Campaigns & Initiatives</h3>
+                    <p>
+                        Showcase ongoing campaigns, upcoming events,
+                        campaign goals, and ways to participate.
+                    </p>
+                    <a href="#campaigns" class="text-link">View Campaigns →</a>
+                </article>
+
+                <article class="feature-card impact-card">
+                    <div class="feature-icon">📊</div>
+                    <span class="feature-number">FEATURE 04</span>
+                    <h3>Impact Showcase</h3>
+                    <p>
+                        Share verified statistics, project updates,
+                        photos, and stories to demonstrate real impact.
+                    </p>
+                    <a href="#impact" class="text-link">See Our Impact →</a>
+                </article>
+
+                <article class="feature-card testimonial-card">
+                    <div class="feature-icon">⭐</div>
+                    <span class="feature-number">FEATURE 05</span>
+                    <h3>Testimonials</h3>
+                    <p>
+                        Build trust by sharing genuine feedback from
+                        volunteers, beneficiaries, and supporters.
+                    </p>
+                    <a href="#testimonials" class="text-link">Read Stories →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section class="section donation-section" id="donate">
+            <div class="donation-content">
+                <span class="eyebrow">YOUR KINDNESS MATTERS</span>
+                <h2>Make a Donation.<br><span>Change a Life.</span></h2>
+                <p>
+                    Your contribution can support education, healthcare,
+                    food distribution, and other community initiatives.
+                </p>
+
+                <div class="amount-options" aria-label="Choose donation amount">
+                    <button class="amount-btn" data-amount="100">₹100</button>
+                    <button class="amount-btn active" data-amount="500">₹500</button>
+                    <button class="amount-btn" data-amount="1000">₹1,000</button>
+                    <button class="amount-btn" data-amount="2000">₹2,000</button>
+                </div>
+
+                <label class="custom-amount-label" for="customAmount">
+                    Or enter another amount (₹)
+                </label>
+                <input
+                    type="number"
+                    id="customAmount"
+                    min="1"
+                    max="1000000"
+                    placeholder="Enter amount"
+                >
+
+                <button class="btn btn-primary" id="donateButton">
+                    Donate ₹500 →
+                </button>
+
+                <p class="small-note">
+                    🔒 Real donations require a verified payment gateway.
+                </p>
+            </div>
+
+            <div class="donation-art">
+                <div class="heart-circle">❤️</div>
+                <div class="hands-emoji">🤲</div>
+                <h3>Every Donation Counts</h3>
+                <p>Small contributions can create meaningful change.</p>
+            </div>
+        </section>
+
+        <!-- Volunteer Section -->
+        <section class="section volunteer-section" id="volunteer">
+            <div class="volunteer-intro">
+                <span class="eyebrow">BECOME A CHANGE MAKER</span>
+                <h2>Your Time Can <span>Change Lives.</span></h2>
+                <p>
+                    Join our volunteer community and use your skills,
+                    time, and energy to make a positive difference.
+                </p>
+
+                <div class="volunteer-benefits">
+                    <p>✓ Contribute to social causes</p>
+                    <p>✓ Develop teamwork and communication skills</p>
+                    <p>✓ Participate in meaningful initiatives</p>
+                </div>
+            </div>
+
+            <form class="volunteer-form" id="volunteerForm">
+                <h3>Become a Volunteer</h3>
+                <p>Fill in the details to express your interest.</p>
+
+                <label for="volName">Full Name</label>
+                <input
+                    type="text"
+                    id="volName"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                    minlength="2"
+                >
+
+                <label for="volEmail">Email Address</label>
+                <input
+                    type="email"
+                    id="volEmail"
+                    name="email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label for="volSkills">Area of Interest</label>
+                <select id="volSkills" name="interest" required>
+                    <option value="">Select your interest</option>
+                    <option>Education</option>
+                    <option>Healthcare</option>
+                    <option>Environment</option>
+                    <option>Fundraising</option>
+                    <option>Web Development</option>
+                    <option>Social Media</option>
+                </select>
+
+                <label for="volMessage">Why do you want to volunteer?</label>
+                <textarea
+                    id="volMessage"
+                    name="message"
+                    rows="3"
+                    placeholder="Tell us a little about yourself"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn btn-primary full-width">
+                    Submit Interest →
+                </button>
+
+                <p class="form-message" id="formMessage" role="status"></p>
+                <p class="small-note">
+                    Demo form: details are not sent to the foundation.
+                </p>
+            </form>
+        </section>
+
+        <!-- Campaigns -->
+        <section class="section campaigns-section" id="campaigns">
+            <div class="section-heading">
+                <span class="eyebrow">BE PART OF THE CHANGE</span>
+                <h2>Our Campaigns & <span>Initiatives</span></h2>
+                <p>
+                    Highlight current projects and show visitors how
+                    they can participate.
+                </p>
+            </div>
+
+            <div class="campaign-grid">
+                <article class="campaign-card-item">
+                    <div class="campaign-visual education-visual">📚</div>
+                    <div class="campaign-body">
+                        <span class="campaign-tag">EDUCATION</span>
+                        <h3>Education for Everyone</h3>
+                        <p>
+                            Help children access learning resources
+                            and educational opportunities.
+                        </p>
+                        <a href="#volunteer" class="text-link">Get Involved →</a>
+                    </div>
+                </article>
+
+                <article class="campaign-card-item">
+                    <div class="campaign-visual health-visual">🩺</div>
+                    <div class="campaign-body">
+                        <span class="campaign-tag">HEALTHCARE</span>
+                        <h3>Health & Well-being</h3>
+                        <p>
+                            Support community health awareness and
+                            access to essential care.
+                        </p>
+                        <a href="#volunteer" class="text-link">Get Involved →</a>
+                    </div>
+                </article>
+
+                <article class="campaign-card-item">
+                    <div class="campaign-visual nature-visual">🌱</div>
+                    <div class="campaign-body">
+                        <span class="campaign-tag">ENVIRONMENT</span>
+                        <h3>A Greener Tomorrow</h3>
+                        <p>
+                            Encourage environmental awareness,
+                            tree planting, and cleaner communities.
+                        </p>
+                        <a href="#volunteer" class="text-link">Get Involved →</a>
+                    </div>
+                </article>
+            </div>
+
+            <p class="small-note centered">
+                Campaign cards are design examples. Replace them with
+                the foundation's verified campaigns before publishing.
+            </p>
+        </section>
+
+        <!-- Impact Showcase -->
+        <section class="section impact-section" id="impact">
+            <div class="section-heading">
+                <span class="eyebrow">TRANSPARENCY BUILDS TRUST</span>
+                <h2>Every Action Creates <span>Impact.</span></h2>
+                <p>
+                    Show verified achievements so visitors can understand
+                    the difference the foundation is making.
+                </p>
+            </div>
+
+            <div class="impact-grid">
+                <div class="impact-stat">
+                    <div class="impact-icon">🎓</div>
+                    <h3>Verified Data</h3>
+                    <p>People supported through education</p>
+                </div>
+
+                <div class="impact-stat">
+                    <div class="impact-icon">🤝</div>
+                    <h3>Volunteer Network</h3>
+                    <p>People contributing their time and skills</p>
+                </div>
+
+                <div class="impact-stat">
+                    <div class="impact-icon">🌍</div>
+                    <h3>Community Projects</h3>
+                    <p>Initiatives completed for local communities</p>
+                </div>
+
+                <div class="impact-stat">
+                    <div class="impact-icon">📈</div>
+                    <h3>Progress Reports</h3>
+                    <p>Updates on goals, spending, and outcomes</p>
+                </div>
+            </div>
+
+            <div class="transparency-note">
+                💡 Recommendation: Publish real statistics, project
+                photographs, annual reports, and donation utilization details.
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section testimonials-section" id="testimonials">
+            <div class="section-heading">
+                <span class="eyebrow">REAL VOICES, REAL STORIES</span>
+                <h2>Stories That <span>Inspire.</span></h2>
+                <p>
+                    Genuine testimonials can help visitors connect
+                    with the foundation's mission.
+                </p>
+            </div>
+
+            <div class="testimonial-grid">
+                <article class="testimonial-card-item">
+                    <div class="quote-icon">“</div>
+                    <p>
+                        Volunteering can be a meaningful way to learn,
+                        work with others, and support a community.
+                    </p>
+                    <div class="person">
+                        <div class="avatar">V</div>
+                        <div>
+                            <strong>Volunteer Story</strong>
+                            <span>Volunteer testimonial placeholder</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card-item">
+                    <div class="quote-icon">“</div>
+                    <p>
+                        Community support can help create opportunities
+                        for people who need them.
+                    </p>
+                    <div class="person">
+                        <div class="avatar">B</div>
+                        <div>
+                            <strong>Community Story</strong>
+                            <span>Beneficiary testimonial placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="small-note centered">
+                These are sample statements, not real testimonials.
+                Publish only authentic feedback with permission.
+            </p>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="final-cta">
+            <div>
+                <span class="eyebrow">BE THE REASON SOMEONE SMILES</span>
+                <h2>Let's Build a Better Tomorrow.</h2>
+                <p>Every helping hand makes a difference.</p>
+            </div>
+
+            <a href="#volunteer" class="btn btn-light">Join Our Mission →</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="footer-logo">💙 InAmigos Foundation</a>
+        <p>Working together for a better tomorrow.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#campaigns">Campaigns</a>
+            <a href="#volunteer">Volunteer</a>
+        </div>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> InAmigos Foundation.
+            Website feature concept created for an internship task.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
